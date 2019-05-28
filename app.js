@@ -160,6 +160,6 @@ function HuffmanCodeDecode() {
     document.getElementById("uploadTextValue2").value = oFREvent.target.result;
 
     var dec = Huffman.decode(oFREvent.target.result);
-    download("huffman.txt", dec);
+    download("huffman_decoded.txt", dec);
   };
 }
